@@ -1,0 +1,20 @@
+.all-divs{
+display: flex;
+min-height: 500px;
+}
+
+.scooter{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+  
+    width: 725px;
+}
+
+.all-divs .space{
+    width: 20vw;
+
+}

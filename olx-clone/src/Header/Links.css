@@ -1,0 +1,45 @@
+.Links{
+    height: 25px;
+    box-shadow:  1px 2px 2px rgba(0,0,0,.1);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 3px;
+    position: relative;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+
+}
+li{
+    font-size: 10px;
+    list-style: none;
+     display: inline-block;
+    cursor: pointer;
+    color: rgba(0,47,52,1);
+    transition: ease 0.3s ease;
+}
+li:hover{
+    color:  #23e5db;
+}
+.all-catogories{
+    font-weight: bolder;
+}
+.all-catogories:hover{
+    color:rgba(0,47,52,1);
+}
+.all-catogories span{
+    position: absolute;
+    bottom: 6px;
+    margin-left: 1px;
+}
+.cat-icon{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,46 @@
+.card{
+    height: 170px;
+    width: clamp(150px, 170px, 170px);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+ 
+}
+.card-component{
+   padding-top: 5px;  
+    position: relative;
+}
+.card-component .img{
+    align-self: center;
+    object-fit: contain;
+    width: 90%;
+}
+.heart{
+    position: absolute;
+    left: 140px;
+    bottom: 135px;
+    background-color: white;
+    border-radius: 180px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.text{
+    text-align: start;
+    padding: 5px 15px;
+}
+.text h6{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.text p{
+    font-size: 10px;
+}
+.text .postingdate{
+    display: flex;
+    font-size: 7px;   
+    
+    justify-content: flex-end;
+}

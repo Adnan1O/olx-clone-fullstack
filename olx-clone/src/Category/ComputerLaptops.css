@@ -1,0 +1,8 @@
+.comp-lap{
+    min-height: 500px;
+    padding-top: 40px;
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

@@ -1,0 +1,11 @@
+.LoginModeslider{
+   margin-left: 25px;
+   width: 200px;
+}
+.LoginModeslider img{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+@media (max-width:530) {
+    
+}

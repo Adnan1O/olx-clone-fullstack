@@ -1,0 +1,78 @@
+.singlemyad{
+    display: flex;
+    height: 100%;
+    color: #002f34;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0,47,52,.2), 0 1px 3px 0 rgba(0,47,52,.2)
+}
+
+.singlemyad .date{
+    border-left: 4px solid aqua ;
+    border-right: 1.5px solid rgb(221, 221, 221);
+    width: 15%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singlemyad .pro-detail{
+    display: flex;
+    flex-direction: column;
+     width: 85%;
+ }
+.singlemyad .pro-detail .pro{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    font-size: 10px;
+    border-bottom: 1.5px solid rgb(221, 221, 221);
+}
+.singlemyad .pro-detail .pro img{
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.singlemyad .pro-detail .pro h5{
+    margin-right: 30px;
+    font-weight: 700;
+}
+.singlemyad .pro-detail .pro span{
+    margin-right: 50px;
+    background-color: #5aece4;
+    border-radius: 3px;
+    height: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singlemyad .pro-detail .view{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 9px;
+}
+.singlemyad .pro-detail .view .view-like{
+    display: flex;
+    gap: 5px;
+}
+.singlemyad .pro-detail .view button{
+    height: 20px;
+    width: 40px;
+    font-size: 7px;
+    font-weight: 700;
+    cursor: pointer;
+    border:  2px solid #002f34;
+    color: #002f34;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+@media (max-width:420) {
+    .singlemyad .pro-detail .pro span{
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.home{
+    min-height: 500px;
+   
+}
+.home .page-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.home .space{
+    width: 20vw;
+    height: 100vh;
+ 
+}
+.home .main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.your-search{
+    background-color: rgba(235,238,239,1);
+    height: 240px;
+    width: 752px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+.your-search .based{
+   font-size: 15px;
+}
+
+
+.allproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+    gap: 10px;
+    background-color: transparent;
+    height: auto;
+    width: 752px;
+}

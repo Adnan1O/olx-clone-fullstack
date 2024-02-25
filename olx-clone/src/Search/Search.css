@@ -1,0 +1,14 @@
+.search-page{
+    min-height: 500px;
+    display: flex;
+    margin-top: 20px;
+}
+.search-page .space {
+   width:  20vw;
+} 
+.search-page .search-body{
+    min-width: 725px;
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,46 @@
+.createuser{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   color: #002f34;
+}
+.createuser input{
+    font-size: 10px;
+    height: 28px;
+    width: 220px;
+    border: 2px solid #002f34;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+.marginbottomclass{
+    margin-bottom: 17px;
+}
+.createuser button{
+    background-color: #002f34;
+    border: none;
+    height: 28px;
+    width: 80px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.createuser button:hover{
+    background-color: #1e464b ; 
+}
+.checkbox input {
+
+    height: 12px;
+    width: 12px;
+}
+.checkbox label{
+    font-size: 10px
+}
+.checkbox{
+    display: flex;
+    width: 230px;
+    margin-top: 1px;
+    
+}
+

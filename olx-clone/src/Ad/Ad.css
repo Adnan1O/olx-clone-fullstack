@@ -1,0 +1,108 @@
+.ad{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px
+}
+.ad .space{
+    height: 100%;
+    width: 25vw ;
+}
+
+.ad .main-div{
+    min-width: 550px;
+    border: 1px solid rgb(219, 219, 219) ;
+    border-radius: 4px;
+}
+.main-div input{
+    outline-color: #23e5db;
+}
+.main-div h6{
+    font-size:12px ;
+    color: rgba(0,47,52,1);
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif
+}
+.main-div span{
+    font-size: 9px;
+    color: rgba(0,47,52,1);
+}
+.main-div label{
+    font-size: 11px;
+    color: rgb(0, 40, 44);
+}
+.main-div .reusable{
+    border-bottom:  1px solid rgb(219, 219, 219) ;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(219, 219, 219) ;
+    height: 220px;
+}
+.details .title{
+    border-bottom: none;
+    margin-top: 10px;
+}
+.details .title h6{
+    padding-bottom: 5px;
+}
+.details .title input{
+    height: 25px;
+    width: clamp( 200px, 300px, 300px)
+}
+.details .description{
+    margin-top: 20px;
+    border-bottom: none;
+}
+.details .description input{
+    height: 150px;
+    width: clamp( 200px, 300px, 300px);
+    word-wrap: 'break-word'
+}
+.main-div .price{
+    height: 100px;
+    padding-bottom: 10px;
+}
+.price input{
+    height: 25px;
+    width: clamp( 200px, 300px, 300px)
+}
+.location{
+    padding-top: 5px;
+    height: 120px;
+    padding-bottom: 10px;
+}
+.location input ,.photo input{
+    height: 25px;
+    width: clamp( 200px, 300px, 300px);
+    font-size: 9px;
+}
+.name{
+    height: 100px;
+    padding-bottom: 5px;
+}
+.name input{
+    height: 25px;
+    width: clamp( 200px, 300px, 300px);
+}
+.name p{
+    font-size: 12px;
+    margin-top: 4px;
+}
+.submit-btn button{
+    height: 30px;
+    width:  65px;
+    background-color: #002f34;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}

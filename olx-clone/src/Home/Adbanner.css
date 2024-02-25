@@ -1,0 +1,25 @@
+.adbanner{
+   height: 90px;
+   background-color: antiquewhite;
+ 
+}
+.banner{
+    background-image: url("https://statics.olx.in/olxin/banners/hero_bg_in_v5@1x.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.banner button{
+    height: 27px;
+    width: 65px;
+    background-color: #002f34 ;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 70px;
+    top: 35px;
+}

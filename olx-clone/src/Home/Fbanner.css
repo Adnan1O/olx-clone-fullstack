@@ -1,0 +1,62 @@
+
+.fbanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    background-color: #f6fafa;
+
+}
+.first{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .phone-img{
+    height: 100%;
+    width: 100%;
+    
+}
+.second{
+    width: 310px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.second p{
+    text-align: start;
+     color:rgba(0,47,52,1);
+     font-size: 14px;
+}
+.second h2{
+
+    font-weight: 700;
+    color: #002f34;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif
+}
+.third{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.third h5{
+    color: #002f34;
+    font-size:10px;
+    margin-left: 10px;
+}
+.stores img{
+    margin-left: 10px;
+    cursor: pointer;
+}

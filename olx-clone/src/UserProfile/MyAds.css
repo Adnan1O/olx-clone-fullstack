@@ -1,0 +1,30 @@
+.myads{
+margin-top: 10px;
+display: flex;
+height: 500px;
+
+}
+.myads .singlemyads{
+
+    width: 70vw;
+    height: 100px;
+    min-width: 300px;
+}
+.myads .space{   
+    width: 15vw
+}
+
+@media (max-width: 700px) {
+    .myads .space{
+        width: 10vw;
+    }
+    .myads .singlemyads{
+        width: 80vw;
+    }
+}
+/* @media (max-width: 480px) {
+    .myads .space{
+        width: 10vw;
+        background-color: red;
+    }
+} */

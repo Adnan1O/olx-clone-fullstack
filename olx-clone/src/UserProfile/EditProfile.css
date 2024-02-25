@@ -1,0 +1,202 @@
+.editprofile{
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+    margin: 20px 0;
+    color: #002f34;  
+}
+.editprofile .middle-area{
+    border: 1px solid rgb(187, 187, 187) ;
+    width: 70%;
+    max-width: 700px;
+    border-radius: 3px;
+}
+.editprofile .middle-area .title{
+    border-bottom: 1px solid rgb(187, 187, 187);
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  padding-left: 10px;
+ 
+}
+.editprofile .basic-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.editprofile .basic-info  h6{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.editprofile .basic-info .input-tip{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+    height: 150px;
+    width: 92%;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+   
+}
+.editprofile .basic-info .input-tip .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    font-size: 10px;
+    color: #002f34;
+    
+}
+.editprofile .basic-info .input-tip .inputs .in-1{
+    height: 25px;
+    width: 270px;
+}
+.editprofile .basic-info .input-tip .inputs .in-2{
+    height: 50px;
+    width: 270px;
+    font-size: 9px;
+}
+ /* .in-2:focus{
+    border-color: #4CADB3;
+} */
+.editprofile .basic-info .tip{
+    font-size: 8px;
+    width: 150px;
+    height: 80px;
+    border: 1px solid rgb(187, 187, 187) ;
+    line-height: 1.5;
+   padding: 2px 0;  
+}
+.editprofile .basic-info .tip svg{
+    font-size: 15px;
+    margin-right: 2px;
+}
+.editprofile .basic-info .tip strong{
+    font-size: 10px;
+}
+.editprofile .basic-info .tip2{
+    font-size: 8px;
+    margin-top: 2px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.editprofile .additional-info{
+   margin-top: 20px;
+   display: flex;
+   gap: 50px;
+   height: 75px;
+   border-bottom: 1px solid rgb(187, 187, 187);
+}
+.editprofile .link-google{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 20px;
+
+}
+.editprofile .link-google p{
+    font-size: 11px;
+}
+.editprofile .link-google span{
+    font-size: 8px;
+}
+.editprofile .additional-info .unlink button{
+    margin-top: 30px;
+    width: 170px;
+    height: 25px;
+    border: 1.5px solid #002f34;
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bolder;
+    color: #002f34;
+}
+.editprofile .additional-info .unlink button:hover{
+    border: 4px solid #002f34;
+}
+.editprofile .last-btns{
+
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.editprofile  .last-btns .discard{
+    border-bottom: 2px solid #002f34;
+    font-size: 11px;
+    color: #002f34;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.editprofile  .last-btns .discard:hover{
+    border-bottom: none;
+}
+.editprofile  .last-btns .save{
+    background-color: #002f34;
+    border: none;
+    height: 30px;
+    width: 90px;
+    color: white;
+    font-size: 11px;
+    font-weight: bolder;
+    border-radius: 3px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 645px) {
+    .editprofile .basic-info .tip {
+        display: none;
+    }
+    .editprofile .basic-info .tip2 {
+        display: none;
+    }
+    .editprofile .additional-info .unlink button{
+        width: 90px;
+
+    }
+    .editprofile .additional-info .unlink{
+        margin-right: 10px;
+    }
+    .editprofile .additional-info span{
+        font-size: 7px;
+
+    }
+    .editprofile .basic-info .input-tip .inputs .in-1{
+        width: 200px;
+         
+    }
+    .editprofile .basic-info .input-tip{
+     
+        margin-left: 10px;
+     
+    }
+ 
+    .editprofile .basic-info .input-tip .inputs .in-2{
+        width: 200px;
+    }
+    .editprofile .basic-info .input-tip{
+        height: 120px;
+        
+    }
+    /* .editprofile .last-btns .discard{
+       background-color: antiquewhite;
+    } */
+    .editprofile{
+        height: 83vh;
+    }
+
+}
+@media only screen and (max-width: 414px) {
+    .editprofile .additional-info span{
+        font-size: 6px;
+    }
+}
